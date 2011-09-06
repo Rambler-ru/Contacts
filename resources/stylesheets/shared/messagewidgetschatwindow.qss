@@ -1,0 +1,29 @@
+QToolBar
+{
+	border: none;
+	padding: 2px;
+	spacing: 2px;
+}
+
+
+QPushButton#rejectAuthRequest,
+QPushButton#authRequest,
+QPushButton#addRequest
+{
+	min-width: 130px;
+}
+
+QPushButton#authorize
+{
+	min-width: 100px;
+}
+
+#wdtBottomWidgets
+{
+	background-color: transparent;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 2px;
+	border-bottom: 1px;
+	border-image: url(%IMAGES_PATH%/searchbarborder.png);
+}
